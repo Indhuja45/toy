@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    color: gray;
+    list-style: none;
+}
+.main-div{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+}
+.ww{
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.main-div ul{
+    display: flex;
+    padding-right: 20px;
+    padding-top: 25px;
+    gap: 10px;
+    text-align: end;
+}
+li:hover{
+color: white;
+}
+.dd{
+    text-align: center;
+    background-image: url(./images/wooden-toy-blocks-wooden-table-children39s-room-ai-generative.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-blend-mode: overlay;
+    /* margin-top: 20px; */
+}
+.yy{
+    font-size: 2em;
+    padding-top: 250px;
+    color: white;
+}
+button{
+    padding: 15px 30px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(110, 108, 108);
+    border-radius: 8px;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
